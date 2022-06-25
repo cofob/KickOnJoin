@@ -3,18 +3,18 @@
     
     <!-- Project information -->
     <groupId>ru.firesquare</groupId>
-    <artifactId>{CHANGEME}</artifactId>
+    <artifactId>kickonjoin</artifactId>
     <packaging>jar</packaging>
 
     <!-- Plugin Information -->
-    <name>{CHANGEME}</name>
-    <description>{CHANGEME}</description>
+    <name>kickonjoin</name>
+    <description>Kick player on join</description>
     <version>0.0.1</version>
-    <url>https://git.averyan.ru/firesquare/plugins/{CHANGEME}</url>
+    <url>https://git.averyan.ru/firesquare/plugins/kick-on-join</url>
 
     <properties>
         <author>firesquare</author>
-        <mainClass>ru.firesquare.{CHANGEME}.{CHANGEME}</mainClass>
+        <mainClass>ru.firesquare.kickonjoin.KickOnJoinPlugin</mainClass>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
@@ -57,18 +57,6 @@
             <artifactId>VaultAPI</artifactId>
             <version>1.7</version>
             <scope>provided</scope>
-        </dependency>
-
-        <dependency>
-            <groupId>com.j256.ormlite</groupId>
-            <artifactId>ormlite-core</artifactId>
-            <version>6.1</version>
-        </dependency>
-
-        <dependency>
-            <groupId>com.j256.ormlite</groupId>
-            <artifactId>ormlite-jdbc</artifactId>
-            <version>6.1</version>
         </dependency>
     </dependencies>
 

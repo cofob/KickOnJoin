@@ -1,4 +1,4 @@
-package ru.firesquare.CHANGEME.utils;
+package ru.firesquare.kickonjoin.utils;
 
 import org.bukkit.ChatColor;
 
